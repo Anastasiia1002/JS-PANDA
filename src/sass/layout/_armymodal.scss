@@ -1,0 +1,81 @@
+.modal__bg {
+    display: none;
+  
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10000;
+  }
+  
+  .modal__annoy {
+    
+    background-color: #fff;
+    position: absolute;
+    width: 300px;
+    bottom: 40px;
+    right: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28);
+    font-size: 1.5rem;
+    animation-name: animatemodal;
+    animation-duration: 0.4s;
+    
+  }
+  
+  .close__btn {
+    align-self: flex-end;
+  }
+  
+  .close__btn:hover {
+    cursor: pointer;
+    color: var(--accent-color);
+  }
+  
+  .modal__img-cat {
+    height: 140px;
+    width: 170px;
+    margin-bottom: 15px;
+  }
+  
+  .modal__img-heart {
+      width: 30px;
+      height: 30px;
+    margin-left: 7px;
+  }
+  
+  .modal-annoy__text {
+    display: flex;
+    font-size: 16px;
+    color: black;
+    margin-bottom: 15px;
+  }
+  
+  .modal-annoy__link { 
+    font-size: 14px;
+    text-decoration: underline;
+    color: #212121;
+    margin-bottom: 30px;
+  }
+  
+  .modal-annoy__link:hover {
+    color: var(--accent-color);
+  }
+  
+  @keyframes animatemodal {
+    from {
+      bottom: -100px;
+      opacity: 0;
+    }
+    to {
+      bottom: 20px;
+      opacity: 1;
+    }
+  }
+
+  
