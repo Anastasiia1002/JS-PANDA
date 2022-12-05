@@ -2,20 +2,20 @@
   "name": "js-panda",
   "version": "3.0.0",
   "description": "",
-  "homepage": "https://github.com/sergienko314/JS-PANDA",
+  "homepage": "https://github.com/Anastasiia1002//JS-PANDA",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /JS-PANDA/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sergienko314/JS-PANDA"
+    "url": "git+https://github.com/Anastasiia1002//JS-PANDA"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sergienko314/JS-PANDA"
+    "url": "https://github.com/Anastasiia1002//JS-PANDA"
   },
   "dependencies": {
     "animate.css": "^4.1.1",
